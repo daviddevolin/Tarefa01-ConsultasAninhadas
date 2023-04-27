@@ -39,3 +39,9 @@ INSERT INTO atividade (codigo, nome, descricao, cod_responsavel, data_inicio, da
 
 INSERT INTO atividade_projeto (cod_projeto, cod_atividade) VALUES 
 (1, 1),(1, 2),(2, 3),(2, 4),(3, 5)
+
+UPDATE departamento  SET cod_gerente = 2 WHERE codigo =1;
+UPDATE departamento  SET cod_gerente = 3 WHERE codigo =2;
+UPDATE departamento  SET cod_gerente = 4 WHERE codigo =3;
+UPDATE departamento  SET cod_gerente = 1 WHERE codigo =4;
+UPDATE departamento  SET cod_gerente = 5 WHERE codigo =5;
