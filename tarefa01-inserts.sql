@@ -31,3 +31,6 @@ INSERT INTO atividade (codigo, nome, descricao, cod_responsavel, data_inicio, da
 (3, 'Atividade 3', 'Elaborar campanhas de marketing', 4, '2022-03-01', '2022-05-31'),
 (4, 'Atividade 4', 'Realizar análise de dados financeiros', 1, '2022-04-01', '2022-11-30'),
 (5, 'Atividade 5', 'Realizar avaliações de desempenho dos funcionários', 5, '2022-12-30', '2023-04-25')
+
+INSERT INTO atividade_projeto (cod_projeto, cod_atividade) VALUES 
+(1, 1),(1, 2),(2, 3),(2, 4),(3, 5)
