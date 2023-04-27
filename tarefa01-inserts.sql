@@ -13,7 +13,7 @@ INSERT INTO funcionario (codigo, nome, sexo, dt_nasc, salario, cod_depto) VALUES
 (1, 'João Silva', 'M', '1990-05-15', 5000.00, 1),
 (2, 'Maria Santos', 'F', '1985-10-20', 6500.00, 1),
 (3, 'Pedro Oliveira', 'M', '1988-03-08', 7000.00, 2),
-(4, 'Ana Costa', 'F', '1993-07-22', 5500.00, 3),
+(4, 'Ana Costa', 'F', '1993-07-22', 8500.00, 3),
 (5, 'Lucas Souza', 'M', '1995-01-10', 4500.00, 2),
 (6, 'Maria Silva', 'F', '1990-06-15', 4500.00, 1),
 (7, 'João Santos', 'M', '1985-03-12', 3900.00, 1),
