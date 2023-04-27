@@ -10,11 +10,11 @@ INSERT INTO departamento (codigo, descricao, cod_gerente) VALUES
 
 -- Inserindo dados na tabela funcionario
 INSERT INTO funcionario (codigo, nome, sexo, dt_nasc, salario, cod_depto) VALUES 
-(1, 'João Silva', 'M', '1990-05-15', 5000.00, 1),
+(1, 'João Silva', 'M', '1990-05-15', 5000.00, 4),
 (2, 'Maria Santos', 'F', '1985-10-20', 6500.00, 1),
 (3, 'Pedro Oliveira', 'M', '1988-03-08', 7000.00, 2),
 (4, 'Ana Costa', 'F', '1993-07-22', 8500.00, 3),
-(5, 'Lucas Souza', 'M', '1995-01-10', 4500.00, 2),
+(5, 'Lucas Souza', 'M', '1995-01-10', 4500.00, 5),
 (6, 'Maria Silva', 'F', '1990-06-15', 4500.00, 1),
 (7, 'João Santos', 'M', '1985-03-12', 3900.00, 1),
 (8, 'Ana Paula', 'F', '1992-09-22', 5200.00, 2),
