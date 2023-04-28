@@ -38,7 +38,7 @@ INSERT INTO atividade (codigo, nome, descricao, cod_responsavel, data_inicio, da
 (5, 'Atividade 5', 'Realizar avaliações de desempenho dos funcionários', 5, '2022-12-30', '2023-04-25')
 
 INSERT INTO atividade_projeto (cod_projeto, cod_atividade) VALUES 
-(1, 1),(1, 2),(2, 3),(2, 4),(3, 5)
+(1, 1),(2, 2),(3, 3),(4, 4),(5, 5);
 
 UPDATE departamento  SET cod_gerente = 2 WHERE codigo =1;
 UPDATE departamento  SET cod_gerente = 3 WHERE codigo =2;
